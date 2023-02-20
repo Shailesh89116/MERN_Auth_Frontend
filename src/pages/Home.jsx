@@ -25,7 +25,7 @@ const Home = () => {
       };
 
       try {
-        const { data } = await axios.get("https://lucent-piroshki-9b3f51.netlify.app/api/private", config);
+        const { data } = await axios.get("https://mern-auth-backend-g1ut.onrender.com/api/private", config);
         setPrivateData(data.data);
       } catch (error) {
         console.log(error);

@@ -21,7 +21,7 @@ const ForgotPassword = () => {
 
     try {
       const { data } = await axios.post(
-        "https://lucent-piroshki-9b3f51.netlify.app/api/auth/forgotpassword",
+        "https://mern-auth-backend-g1ut.onrender.com/api/auth/forgotpassword",
         { email },
         config
       );

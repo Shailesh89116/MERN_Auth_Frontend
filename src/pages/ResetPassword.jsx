@@ -36,7 +36,7 @@ const ResetPassword = ({ match }) => {
 
     try {
       const { data } = await axios.put(
-        `https://lucent-piroshki-9b3f51.netlify.app/api/auth/resetpassword/${resetToken}`,
+        `https://mern-auth-backend-g1ut.onrender.com/api/auth/resetpassword/${resetToken}`,
         {
           password,
         },

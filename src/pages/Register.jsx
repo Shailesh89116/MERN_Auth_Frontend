@@ -32,7 +32,7 @@ const Register = () => {
 
     try {
       const { data } = await axios.post(
-        "https://lucent-piroshki-9b3f51.netlify.appb3f51.netlify.app/api/auth/register",
+        "https://mern-auth-backend-g1ut.onrender.comb3f51.netlify.app/api/auth/register",
         {
           username,
           email,

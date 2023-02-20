@@ -27,7 +27,7 @@ const Login= () => {
 
     try {
       const { data } = await axios.post(
-        "https://lucent-piroshki-9b3f51.netlify.appb3f51.netlify.app/api/auth/login",
+        "https://mern-auth-backend-g1ut.onrender.comb3f51.netlify.app/api/auth/login",
         { email, password },
         config
       );
