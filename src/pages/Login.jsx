@@ -26,16 +26,19 @@ const Login= () => {
     };
 
     try {
-      const { data } = await axios.post(
+      const  data  = await axios.post(
         "https://mern-auth-backend-g1ut.onrender.comb3f51.netlify.app/api/auth/login",
         { email, password },
         config
       );
 
+      console.log(data);
+
       localStorage.setItem("authToken", data.token);
 
      navigate("/");
     } catch (error) {
+      console.log(error);
       setError(error.response.data.error);
       setTimeout(() => {
         setError("");
