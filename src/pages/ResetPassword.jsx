@@ -36,7 +36,7 @@ const ResetPassword = ({ match }) => {
 
     try {
       const { data } = await axios.put(
-        `http://localhost:5000/api/auth/resetpassword/${resetToken}`,
+        `http://43.204.35.182:5000/api/auth/resetpassword/${resetToken}`,
         {
           password,
         },
