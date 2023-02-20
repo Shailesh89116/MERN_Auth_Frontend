@@ -32,7 +32,7 @@ const Register = () => {
 
     try {
       const { data } = await axios.post(
-        "http://43.204.35.182:5000/api/auth/register",
+        "https://lucent-piroshki-9b3f51.netlify.appb3f51.netlify.app/api/auth/register",
         {
           username,
           email,

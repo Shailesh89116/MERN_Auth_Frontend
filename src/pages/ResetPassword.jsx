@@ -36,7 +36,7 @@ const ResetPassword = ({ match }) => {
 
     try {
       const { data } = await axios.put(
-        `http://43.204.35.182:5000/api/auth/resetpassword/${resetToken}`,
+        `https://lucent-piroshki-9b3f51.netlify.app/api/auth/resetpassword/${resetToken}`,
         {
           password,
         },

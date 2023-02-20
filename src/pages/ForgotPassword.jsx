@@ -21,7 +21,7 @@ const ForgotPassword = () => {
 
     try {
       const { data } = await axios.post(
-        "http://43.204.35.182:5000/api/auth/forgotpassword",
+        "https://lucent-piroshki-9b3f51.netlify.app/api/auth/forgotpassword",
         { email },
         config
       );

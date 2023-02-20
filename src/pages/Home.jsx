@@ -25,7 +25,7 @@ const Home = () => {
       };
 
       try {
-        const { data } = await axios.get("http://43.204.35.182:5000/api/private", config);
+        const { data } = await axios.get("https://lucent-piroshki-9b3f51.netlify.app/api/private", config);
         setPrivateData(data.data);
       } catch (error) {
         console.log(error);
